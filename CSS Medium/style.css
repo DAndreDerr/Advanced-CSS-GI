@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 1px;
+}
+
+a {
+    color:black;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.card {
+    padding: 2%;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}

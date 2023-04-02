@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+}
+
+.flag {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    padding: 0px;
+}
+
+.row {
+    width: 500px;
+    height: 22.4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rs {  
+    background-color: red;
+}
+
+.ws {  
+    background-color: white;
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
